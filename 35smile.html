@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>    
+    p.name{
+        font-size: 60px ;
+        text-align :center;
+     }
+
+     a{
+          text-decoration: none;
+          float:left;
+          margin:10px;
+        }
+
+     *{
+          box-sizing: border-box;
+        }
+
+       div.gallery {
+           border: 1px solid black;
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+           margin-left:380px;
+           margin-top: 25px;
+        }
+
+        div.gallery img {
+           width: 300px;
+           height: 400px;
+          }
+
+          .responsive {
+            padding: 0 6px;
+            float: left;
+           width: 50%;
+           }
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+    </style>
+</head>
+<body>
+
+    <p class="name">
+        <span style="cursor:pointer">
+
+          
+
+            <a target="_blank" href="s-eresize.png" >
+                <img src="s-eresize.png" alt="s-eresize" width="34" height ="32">
+              </a>
+
+              <a target="_blank" href="forward_button.png" >
+                <img src="forward_button.png" alt="forward_button" width="34" height ="32">
+              </a>
+
+              <a target="_blank" href="likebutton.png" >
+                <img src="likebutton.png" alt="likebutton" width="34" height ="32">
+              </a>
+
+              <a target="_blank" href="crossbutton.png" style="float: right;">
+                <img src="crossbutton.png" alt="crossbutton" width="34" height ="32">
+              </a>
+            Happiness </span>
+        </p>
+     
+
+        <a target="_blank" href="33holding.jpg" style="margin-top: 150px;">
+            <img src="previousbuttton.png" alt="previousbuttton" width="50" height ="40">
+          </a>
+
+          <a target="_blank" href="34imagination.jpg" style="float: right;margin-top:150px;">
+            <img src="nextbutton.png" alt="nextbutton" width="50" height ="40">
+          </a>
+
+    <div class="responsive">
+        <div class="gallery">
+            <span style="cursor:zoom-in">
+          <a target="_blank" href="35smile.html">
+            <img src="35smile.jpg" alt="SMILE" >
+          </a>
+        </span>
+        </div>
+      </div>
+</body>
+</html>

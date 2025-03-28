@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Vaishnav</title>
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c3c;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #4b4b94;
+}
+
+.hire-btn {
+    background-color: #7645ff;
+    padding: 10px 25px;
+}
+
+.hire-btn:hover {
+    background-color: #5b38cc;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.intro .container {
+    max-width: 50%;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro h2 {
+    font-size: 30px;
+    color: #7645ff;
+}
+
+.intro p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7645ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #5b38cc;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #7645ff;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html" >Home</a>|</li>
+                <li><a href="sketch.html" >Drawing</a>|</li>
+                <li><a href="availableart.html">Available Art</a>|</li>
+                <li><a href="#Shop">Shop </a>|</li>
+                <li><a href="#Aboutme">About me </a>|</li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#" class="hire-btn">Hire Me!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h1>I am Pranjal</h1>
+            <h2>Web Developer + UX Designer</h2>
+            <p>I break down complex user experience problems to create integrity-focused solutions that connect billions of people.</p>
+            <a href="#" class="download-btn">Download CV</a>
+        </div>
+        <div class="profile-picture">
+            <img src="ME.jpg" alt="Pranjal's Picture">
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
